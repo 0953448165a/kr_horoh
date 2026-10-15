@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Завдання 4 — Зображення</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <h1><a href="../index.html#end">Модульна контрольна робота №1</a></h1>
+  <h2>студента Гороха Івана</h2>
+
+  <nav class="nav">
+    <a href="../index.html">Завдання 1</a>
+    <a href="task2.html">Завдання 2</a>
+    <a href="task3.html">Завдання 3</a>
+    <a href="task4.html">Завдання 4</a>
+  </nav>
+
+  <div class="block image-box">
+    <p>Натисніть на трикутну зону на зображенні:</p>
+
+    <img src="../img/photo.png" alt="Зображення"
+         width="600" height="400" usemap="#triangle-map">
+
+    <map name="triangle-map">
+      <!-- Трикутник: три вершини (x1,y1, x2,y2, x3,y3) -->
+      <area shape="poly" coords="300,50, 100,350, 500,350"
+            href="https://www.google.com" target="_blank" alt="Трикутник">
+    </map>
+  </div>
+
+</body>
+</html>
